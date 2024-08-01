@@ -24,7 +24,7 @@ public enum MessageType {
   CHAT_SEND,
 }
 
-// Примерн код класса сообщения
+// Пример код класса сообщения
 class LoginMessage {
   MessageType type;
   String login;
