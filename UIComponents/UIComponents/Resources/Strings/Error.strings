@@ -1,0 +1,17 @@
+/*
+ Error.strings
+ KoraTalk
+ 
+ Created by Pavel Mac on 10/11/2024.
+ Copyright © 2024 Apricus-LLP. All rights reserved.
+ */
+
+"empty" = "%@ empty";
+"refreshFromTop" = "Please wait";
+"emptyFields" = "Please wait";
+"checkInformations" = "Please wait";
+
+// MARK: - Keys
+"Key.username" = "Username";
+"Key.email" = "E-mail";
+"Key.comment" = "Comment";

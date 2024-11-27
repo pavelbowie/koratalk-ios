@@ -1,0 +1,1557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022BC31003B0912E1F7B5043 /* Pods_KoraTalk_KoraTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36066D0DF95B2C2E076A7FA /* Pods_KoraTalk_KoraTalkUITests.framework */; };
+		1EE850E12CE45D5A00E88DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE850DF2CE45D5A00E88DB8 /* LaunchScreen.storyboard */; };
+		3D5DC50A261F52DA002294B7 /* RecipeDetailRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5DC509261F52DA002294B7 /* RecipeDetailRoute.swift */; };
+		3D9BC03927BE4BE300DFEFDE /* APIRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BC03727BE4BE300DFEFDE /* APIRequestAdapter.swift */; };
+		3D9BC03A27BE4BE300DFEFDE /* APIDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BC03827BE4BE300DFEFDE /* APIDataProvider.swift */; };
+		3DABD56327429CA30035DCA4 /* CommentCellModel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABD56227429CA30035DCA4 /* CommentCellModel+Extensions.swift */; };
+		3DD25A50274248770070567E /* APIRequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD25A4F274248770070567E /* APIRequestInterceptor.swift */; };
+		3DD25A5427424AC50070567E /* APILogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD25A5327424AC50070567E /* APILogger.swift */; };
+		3DD25A5627424AF60070567E /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD25A5527424AF60070567E /* DataProvider.swift */; };
+		415BD6F799CB91F9D3918334 /* Pods_KoraTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6645D9556589006530DDAC /* Pods_KoraTalk.framework */; };
+		5FFC3222261A1327004D4F15 /* LoginWarningPopupRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFC321E261A1327004D4F15 /* LoginWarningPopupRoute.swift */; };
+		5FFC3223261A1328004D4F15 /* LoginWarningPopupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFC321F261A1327004D4F15 /* LoginWarningPopupRouter.swift */; };
+		5FFC3224261A1328004D4F15 /* LoginWarningPopupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFC3220261A1327004D4F15 /* LoginWarningPopupViewModel.swift */; };
+		5FFC3225261A1328004D4F15 /* LoginWarningPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFC3221261A1327004D4F15 /* LoginWarningPopupViewController.swift */; };
+		68638C1B26288E820079B785 /* LoginRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68638C1A26288E820079B785 /* LoginRoute.swift */; };
+		6CFE5376262ED7DC0008FFCD /* FavoritesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE5373262ED7DC0008FFCD /* FavoritesRouter.swift */; };
+		6CFE5377262ED7DC0008FFCD /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE5374262ED7DC0008FFCD /* FavoritesViewController.swift */; };
+		6CFE5378262ED7DC0008FFCD /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE5375262ED7DC0008FFCD /* FavoritesViewModel.swift */; };
+		6EC8BCC025DF0775421C4D68 /* Pods_KoraTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1111061D88FB4001DF5577DC /* Pods_KoraTalkTests.framework */; };
+		7A716CDC260B4B83008B91B7 /* TransparentNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A716CDB260B4B83008B91B7 /* TransparentNavigationController.swift */; };
+		7A73C7FC25CC178000322233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A73C7FB25CC178000322233 /* AppDelegate.swift */; };
+		7A980AB62553168400494520 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A980AB32553168400494520 /* HomeRouter.swift */; };
+		7A980AB72553168400494520 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A980AB42553168400494520 /* HomeViewController.swift */; };
+		7A980AB82553168400494520 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A980AB52553168400494520 /* HomeViewModel.swift */; };
+		7A980AE4255316BF00494520 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A980AE1255316BF00494520 /* BaseViewController.swift */; };
+		7A980AE5255316BF00494520 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A980AE2255316BF00494520 /* MainNavigationController.swift */; };
+		7A980AE6255316BF00494520 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A980AE3255316BF00494520 /* BaseViewModel.swift */; };
+		7A980AEE2553171A00494520 /* ModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A980AEA2553171A00494520 /* ModalTransition.swift */; };
+		7A980AEF2553171A00494520 /* PlaceOnWindowTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A980AEB2553171A00494520 /* PlaceOnWindowTransition.swift */; };
+		7A980AF02553171A00494520 /* PushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A980AEC2553171A00494520 /* PushTransition.swift */; };
+		7A980AF12553171A00494520 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A980AED2553171A00494520 /* Transition.swift */; };
+		7A980AF72553173F00494520 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A980AF52553173F00494520 /* Router.swift */; };
+		7A980AF82553173F00494520 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A980AF62553173F00494520 /* Animator.swift */; };
+		7A980AFC2553178000494520 /* AppMainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A980AFB2553178000494520 /* AppMainRouter.swift */; };
+		7A980B3325531F9600494520 /* HomeRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A980B3225531F9600494520 /* HomeRoute.swift */; };
+		7AC7AC3025CD49F700EA44C4 /* DateFormats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC7AC2F25CD49F700EA44C4 /* DateFormats.swift */; };
+		7AFC72A62551FA1A00B30789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFC72A52551FA1A00B30789 /* Assets.xcassets */; };
+		7AFC72B42551FA1A00B30789 /* KoraTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC72B32551FA1A00B30789 /* KoraTalkTests.swift */; };
+		7AFC72BF2551FA1A00B30789 /* KoraTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC72BE2551FA1A00B30789 /* KoraTalkUITests.swift */; };
+		7AFC739E2551FF4F00B30789 /* DataProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFC739D2551FF4F00B30789 /* DataProvider.framework */; };
+		7AFC73A42551FF5400B30789 /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFC73A32551FF5400B30789 /* UIComponents.framework */; };
+		7AFC73A92551FF5800B30789 /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFC73A82551FF5800B30789 /* Utilities.framework */; };
+		7AFCDEA7261615A600D5D115 /* RecipeDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFCDEA4261615A600D5D115 /* RecipeDetailRouter.swift */; };
+		7AFCDEA8261615A600D5D115 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFCDEA5261615A600D5D115 /* RecipeDetailViewController.swift */; };
+		7AFCDEA9261615A600D5D115 /* RecipeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFCDEA6261615A600D5D115 /* RecipeDetailViewModel.swift */; };
+		840EB5AA264589790019C101 /* PhotoBrowserRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EB5A9264589790019C101 /* PhotoBrowserRoute.swift */; };
+		840EB5B226458B220019C101 /* PhotoBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EB5A32645894A0019C101 /* PhotoBrowserDelegate.swift */; };
+		840EB5B426458B490019C101 /* PhotoBrowserCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EB5B326458B490019C101 /* PhotoBrowserCache.swift */; };
+		84AB45DB2629791B007A41A7 /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB45DA2629791B007A41A7 /* ScreenSize.swift */; };
+		84BBEF262632CD6D00F33F04 /* AppDelegate+PhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBEF252632CD6D00F33F04 /* AppDelegate+PhotoBrowser.swift */; };
+		A2176A2626161623008B3C46 /* WalkThroughRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2176A2326161623008B3C46 /* WalkThroughRouter.swift */; };
+		A2176A2726161623008B3C46 /* WalkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2176A2426161623008B3C46 /* WalkThroughViewController.swift */; };
+		A2176A2826161623008B3C46 /* WalkThroughViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2176A2526161623008B3C46 /* WalkThroughViewModel.swift */; };
+		A2176A3026161686008B3C46 /* WalkThroughRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2176A2F26161686008B3C46 /* WalkThroughRoute.swift */; };
+		A22C0B8426677A51003A6EFA /* RecipeCellModel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C0B8326677A51003A6EFA /* RecipeCellModel+Extension.swift */; };
+		A22C0B862667816A003A6EFA /* CategoryCellModel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C0B852667816A003A6EFA /* CategoryCellModel+Extension.swift */; };
+		A22C0B882667970D003A6EFA /* AppDelegate+IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C0B872667970D003A6EFA /* AppDelegate+IQKeyboardManager.swift */; };
+		A2463331266A1F4A00F85CB4 /* ShareSheetRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2463330266A1F4A00F85CB4 /* ShareSheetRoute.swift */; };
+		A24F29DA26664B5200B7211B /* RecipeDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F29D926664B5200B7211B /* RecipeDetailHeaderView.swift */; };
+		A24F29DD26667C4100B7211B /* UnfollowAlertViewRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F29DC26667C4100B7211B /* UnfollowAlertViewRoute.swift */; };
+		A29A02D42660F5810078F2FA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A02D32660F5810078F2FA /* MainTabBarController.swift */; };
+		A29A02D62660F5E80078F2FA /* MainTabBarRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A02D52660F5E80078F2FA /* MainTabBarRoute.swift */; };
+		A2D7BB442664F3F000E3F3A2 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BB432664F3F000E3F3A2 /* Validation.swift */; };
+		A2D7BB492664FC3C00E3F3A2 /* PasswordResetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BB462664FC3C00E3F3A2 /* PasswordResetRouter.swift */; };
+		A2D7BB4A2664FC3C00E3F3A2 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BB472664FC3C00E3F3A2 /* PasswordResetViewController.swift */; };
+		A2D7BB4B2664FC3C00E3F3A2 /* PasswordResetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BB482664FC3C00E3F3A2 /* PasswordResetViewModel.swift */; };
+		A2D7BB4D2664FC4900E3F3A2 /* PasswordResetRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BB4C2664FC4900E3F3A2 /* PasswordResetRoute.swift */; };
+		A2D7BB582665126600E3F3A2 /* CommentListRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BB572665126600E3F3A2 /* CommentListRoute.swift */; };
+		A2D7BB5C266513C900E3F3A2 /* CommentListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BB59266513C900E3F3A2 /* CommentListRouter.swift */; };
+		A2D7BB5D266513C900E3F3A2 /* CommentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BB5A266513C900E3F3A2 /* CommentListViewController.swift */; };
+		A2D7BB5E266513C900E3F3A2 /* CommentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BB5B266513C900E3F3A2 /* CommentListViewModel.swift */; };
+		A2D7BB632665184500E3F3A2 /* CommentEditDeleteAlertViewRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BB622665184500E3F3A2 /* CommentEditDeleteAlertViewRoute.swift */; };
+		A2D7BB67266524E200E3F3A2 /* CommentEditRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BB64266524E200E3F3A2 /* CommentEditRouter.swift */; };
+		A2D7BB68266524E200E3F3A2 /* CommentEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BB65266524E200E3F3A2 /* CommentEditViewController.swift */; };
+		A2D7BB69266524E200E3F3A2 /* CommentEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BB66266524E200E3F3A2 /* CommentEditViewModel.swift */; };
+		A2D7BB6B266524F600E3F3A2 /* CommentEditRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BB6A266524F600E3F3A2 /* CommentEditRoute.swift */; };
+		A2F53D6F2668E7B7007E89BA /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F53D6E2668E7B7007E89BA /* NotificationNames.swift */; };
+		B321F657263188A50082484C /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B321F653263188A50082484C /* RecipesViewModel.swift */; };
+		B321F658263188A50082484C /* RecipesRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B321F654263188A50082484C /* RecipesRoute.swift */; };
+		B321F659263188A50082484C /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B321F655263188A50082484C /* RecipesViewController.swift */; };
+		B321F6752631C8650082484C /* RecipesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B321F6742631C8650082484C /* RecipesRouter.swift */; };
+		FBA13EC726161062001E19B4 /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA13EC426161062001E19B4 /* RegisterRouter.swift */; };
+		FBA13EC826161062001E19B4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA13EC526161062001E19B4 /* RegisterViewController.swift */; };
+		FBA13EC926161062001E19B4 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA13EC626161062001E19B4 /* RegisterViewModel.swift */; };
+		FBA13ECD2616137A001E19B4 /* RegisterRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA13ECC2616137A001E19B4 /* RegisterRoute.swift */; };
+		FBA13ED726161C2B001E19B4 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA13ED426161C2B001E19B4 /* LoginRouter.swift */; };
+		FBA13ED826161C2B001E19B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA13ED526161C2B001E19B4 /* LoginViewController.swift */; };
+		FBA13ED926161C2B001E19B4 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA13ED626161C2B001E19B4 /* LoginViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AFC72B02551FA1A00B30789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AFC72912551FA1800B30789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AFC72982551FA1800B30789;
+			remoteInfo = BaseProject;
+		};
+		7AFC72BB2551FA1A00B30789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AFC72912551FA1800B30789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AFC72982551FA1800B30789;
+			remoteInfo = BaseProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0095EF343F070E39CA10203B /* Pods-KoraTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoraTalk.debug.xcconfig"; path = "Target Support Files/Pods-KoraTalk/Pods-KoraTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		1111061D88FB4001DF5577DC /* Pods_KoraTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoraTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CCE83E92ED6509A80BE4CF4 /* Pods-SampleProject-SampleProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleProject-SampleProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-SampleProject-SampleProjectUITests/Pods-SampleProject-SampleProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1EE850E02CE45D5A00E88DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F06AAE070F4EE05AD73BCC5 /* Pods-KoraTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoraTalkTests.debug.xcconfig"; path = "Target Support Files/Pods-KoraTalkTests/Pods-KoraTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		306B22CF9C53DC0C1D1044A2 /* Pods-SampleProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-SampleProjectTests/Pods-SampleProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D5DC509261F52DA002294B7 /* RecipeDetailRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailRoute.swift; sourceTree = "<group>"; };
+		3D9BC03727BE4BE300DFEFDE /* APIRequestAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestAdapter.swift; sourceTree = "<group>"; };
+		3D9BC03827BE4BE300DFEFDE /* APIDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIDataProvider.swift; sourceTree = "<group>"; };
+		3DABD56227429CA30035DCA4 /* CommentCellModel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CommentCellModel+Extensions.swift"; sourceTree = "<group>"; };
+		3DD25A4F274248770070567E /* APIRequestInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestInterceptor.swift; sourceTree = "<group>"; };
+		3DD25A5327424AC50070567E /* APILogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APILogger.swift; sourceTree = "<group>"; };
+		3DD25A5527424AF60070567E /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		40A466BB3A17D5532723A6F4 /* Pods-SampleProject.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleProject.development.xcconfig"; path = "Target Support Files/Pods-SampleProject/Pods-SampleProject.development.xcconfig"; sourceTree = "<group>"; };
+		51B08F91B77975329EEDFA76 /* Pods-KoraTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoraTalkTests.release.xcconfig"; path = "Target Support Files/Pods-KoraTalkTests/Pods-KoraTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A2BD542FB24694B7CD6971D /* Pods-SampleProjectTests.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleProjectTests.development.xcconfig"; path = "Target Support Files/Pods-SampleProjectTests/Pods-SampleProjectTests.development.xcconfig"; sourceTree = "<group>"; };
+		5FFC321E261A1327004D4F15 /* LoginWarningPopupRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWarningPopupRoute.swift; sourceTree = "<group>"; };
+		5FFC321F261A1327004D4F15 /* LoginWarningPopupRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWarningPopupRouter.swift; sourceTree = "<group>"; };
+		5FFC3220261A1327004D4F15 /* LoginWarningPopupViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWarningPopupViewModel.swift; sourceTree = "<group>"; };
+		5FFC3221261A1327004D4F15 /* LoginWarningPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWarningPopupViewController.swift; sourceTree = "<group>"; };
+		6004522434B01FD4AA8511FA /* Pods-KoraTalkTests.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoraTalkTests.development.xcconfig"; path = "Target Support Files/Pods-KoraTalkTests/Pods-KoraTalkTests.development.xcconfig"; sourceTree = "<group>"; };
+		68638C1A26288E820079B785 /* LoginRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRoute.swift; sourceTree = "<group>"; };
+		6CFE5373262ED7DC0008FFCD /* FavoritesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesRouter.swift; sourceTree = "<group>"; };
+		6CFE5374262ED7DC0008FFCD /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		6CFE5375262ED7DC0008FFCD /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
+		75513809852240C0CE1DCDA4 /* Pods-SampleProject-SampleProjectUITests.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleProject-SampleProjectUITests.development.xcconfig"; path = "Target Support Files/Pods-SampleProject-SampleProjectUITests/Pods-SampleProject-SampleProjectUITests.development.xcconfig"; sourceTree = "<group>"; };
+		7A6AED8A25A756F900BB1457 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		7A716CDB260B4B83008B91B7 /* TransparentNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentNavigationController.swift; sourceTree = "<group>"; };
+		7A73C7FB25CC178000322233 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A980AB32553168400494520 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		7A980AB42553168400494520 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7A980AB52553168400494520 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		7A980AE1255316BF00494520 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		7A980AE2255316BF00494520 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		7A980AE3255316BF00494520 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		7A980AEA2553171A00494520 /* ModalTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalTransition.swift; sourceTree = "<group>"; };
+		7A980AEB2553171A00494520 /* PlaceOnWindowTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceOnWindowTransition.swift; sourceTree = "<group>"; };
+		7A980AEC2553171A00494520 /* PushTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushTransition.swift; sourceTree = "<group>"; };
+		7A980AED2553171A00494520 /* Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		7A980AF52553173F00494520 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		7A980AF62553173F00494520 /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		7A980AFB2553178000494520 /* AppMainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainRouter.swift; sourceTree = "<group>"; };
+		7A980B3225531F9600494520 /* HomeRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoute.swift; sourceTree = "<group>"; };
+		7AC7AC2F25CD49F700EA44C4 /* DateFormats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormats.swift; sourceTree = "<group>"; };
+		7AFC72992551FA1800B30789 /* KoraTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoraTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFC72A52551FA1A00B30789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AFC72AA2551FA1A00B30789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFC72AF2551FA1A00B30789 /* KoraTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoraTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFC72B32551FA1A00B30789 /* KoraTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoraTalkTests.swift; sourceTree = "<group>"; };
+		7AFC72B52551FA1A00B30789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFC72BA2551FA1A00B30789 /* KoraTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoraTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFC72BE2551FA1A00B30789 /* KoraTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoraTalkUITests.swift; sourceTree = "<group>"; };
+		7AFC72C02551FA1A00B30789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFC72E02551FC3300B30789 /* Info-Debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Debug.plist"; sourceTree = "<group>"; };
+		7AFC72E52551FC3900B30789 /* Info-Development.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Development.plist"; sourceTree = "<group>"; };
+		7AFC73472551FEBF00B30789 /* KoraTalk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KoraTalk-Bridging-Header.h"; sourceTree = "<group>"; };
+		7AFC739D2551FF4F00B30789 /* DataProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DataProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFC73A32551FF5400B30789 /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFC73A82551FF5800B30789 /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFCDEA4261615A600D5D115 /* RecipeDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailRouter.swift; sourceTree = "<group>"; };
+		7AFCDEA5261615A600D5D115 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
+		7AFCDEA6261615A600D5D115 /* RecipeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewModel.swift; sourceTree = "<group>"; };
+		840EB5A32645894A0019C101 /* PhotoBrowserDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowserDelegate.swift; sourceTree = "<group>"; };
+		840EB5A9264589790019C101 /* PhotoBrowserRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowserRoute.swift; sourceTree = "<group>"; };
+		840EB5B326458B490019C101 /* PhotoBrowserCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowserCache.swift; sourceTree = "<group>"; };
+		84AB45DA2629791B007A41A7 /* ScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
+		84BBEF252632CD6D00F33F04 /* AppDelegate+PhotoBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+PhotoBrowser.swift"; sourceTree = "<group>"; };
+		854B1E2480CD13E455CCB719 /* Pods-KoraTalk-KoraTalkUITests.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoraTalk-KoraTalkUITests.development.xcconfig"; path = "Target Support Files/Pods-KoraTalk-KoraTalkUITests/Pods-KoraTalk-KoraTalkUITests.development.xcconfig"; sourceTree = "<group>"; };
+		8F5FC3A881DC25A4B1F15B72 /* Pods-SampleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleProject.debug.xcconfig"; path = "Target Support Files/Pods-SampleProject/Pods-SampleProject.debug.xcconfig"; sourceTree = "<group>"; };
+		99DD35235DD191553F04C040 /* Pods-KoraTalk-KoraTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoraTalk-KoraTalkUITests.debug.xcconfig"; path = "Target Support Files/Pods-KoraTalk-KoraTalkUITests/Pods-KoraTalk-KoraTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2176A2326161623008B3C46 /* WalkThroughRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughRouter.swift; sourceTree = "<group>"; };
+		A2176A2426161623008B3C46 /* WalkThroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughViewController.swift; sourceTree = "<group>"; };
+		A2176A2526161623008B3C46 /* WalkThroughViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughViewModel.swift; sourceTree = "<group>"; };
+		A2176A2F26161686008B3C46 /* WalkThroughRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughRoute.swift; sourceTree = "<group>"; };
+		A22C0B8326677A51003A6EFA /* RecipeCellModel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecipeCellModel+Extension.swift"; sourceTree = "<group>"; };
+		A22C0B852667816A003A6EFA /* CategoryCellModel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CategoryCellModel+Extension.swift"; sourceTree = "<group>"; };
+		A22C0B872667970D003A6EFA /* AppDelegate+IQKeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+IQKeyboardManager.swift"; sourceTree = "<group>"; };
+		A2463330266A1F4A00F85CB4 /* ShareSheetRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareSheetRoute.swift; sourceTree = "<group>"; };
+		A24F29D926664B5200B7211B /* RecipeDetailHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailHeaderView.swift; sourceTree = "<group>"; };
+		A24F29DC26667C4100B7211B /* UnfollowAlertViewRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnfollowAlertViewRoute.swift; sourceTree = "<group>"; };
+		A29A02D32660F5810078F2FA /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A29A02D52660F5E80078F2FA /* MainTabBarRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarRoute.swift; sourceTree = "<group>"; };
+		A2D7BB432664F3F000E3F3A2 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		A2D7BB462664FC3C00E3F3A2 /* PasswordResetRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetRouter.swift; sourceTree = "<group>"; };
+		A2D7BB472664FC3C00E3F3A2 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		A2D7BB482664FC3C00E3F3A2 /* PasswordResetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewModel.swift; sourceTree = "<group>"; };
+		A2D7BB4C2664FC4900E3F3A2 /* PasswordResetRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetRoute.swift; sourceTree = "<group>"; };
+		A2D7BB572665126600E3F3A2 /* CommentListRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListRoute.swift; sourceTree = "<group>"; };
+		A2D7BB59266513C900E3F3A2 /* CommentListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListRouter.swift; sourceTree = "<group>"; };
+		A2D7BB5A266513C900E3F3A2 /* CommentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListViewController.swift; sourceTree = "<group>"; };
+		A2D7BB5B266513C900E3F3A2 /* CommentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListViewModel.swift; sourceTree = "<group>"; };
+		A2D7BB622665184500E3F3A2 /* CommentEditDeleteAlertViewRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentEditDeleteAlertViewRoute.swift; sourceTree = "<group>"; };
+		A2D7BB64266524E200E3F3A2 /* CommentEditRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentEditRouter.swift; sourceTree = "<group>"; };
+		A2D7BB65266524E200E3F3A2 /* CommentEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentEditViewController.swift; sourceTree = "<group>"; };
+		A2D7BB66266524E200E3F3A2 /* CommentEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentEditViewModel.swift; sourceTree = "<group>"; };
+		A2D7BB6A266524F600E3F3A2 /* CommentEditRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentEditRoute.swift; sourceTree = "<group>"; };
+		A2F53D6E2668E7B7007E89BA /* NotificationNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
+		A68B61997538C78E8FEE9617 /* Pods-SampleProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleProjectTests.release.xcconfig"; path = "Target Support Files/Pods-SampleProjectTests/Pods-SampleProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC6645D9556589006530DDAC /* Pods_KoraTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoraTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B321F653263188A50082484C /* RecipesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
+		B321F654263188A50082484C /* RecipesRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesRoute.swift; sourceTree = "<group>"; };
+		B321F655263188A50082484C /* RecipesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
+		B321F6742631C8650082484C /* RecipesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesRouter.swift; sourceTree = "<group>"; };
+		C301F2C90F8C9220C0249198 /* Pods-KoraTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoraTalk.release.xcconfig"; path = "Target Support Files/Pods-KoraTalk/Pods-KoraTalk.release.xcconfig"; sourceTree = "<group>"; };
+		CCC4B968AC828DD26535DE94 /* Pods-SampleProject-SampleProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleProject-SampleProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-SampleProject-SampleProjectUITests/Pods-SampleProject-SampleProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D27E1F7DAA0A6CD0BF6553C6 /* Pods-KoraTalk.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoraTalk.development.xcconfig"; path = "Target Support Files/Pods-KoraTalk/Pods-KoraTalk.development.xcconfig"; sourceTree = "<group>"; };
+		E36066D0DF95B2C2E076A7FA /* Pods_KoraTalk_KoraTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoraTalk_KoraTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9ADB6AC46C1F67400803DC0 /* Pods-SampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleProject.release.xcconfig"; path = "Target Support Files/Pods-SampleProject/Pods-SampleProject.release.xcconfig"; sourceTree = "<group>"; };
+		EA6A3CC6E0DDE3BF9F64C0C6 /* Pods-KoraTalk-KoraTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoraTalk-KoraTalkUITests.release.xcconfig"; path = "Target Support Files/Pods-KoraTalk-KoraTalkUITests/Pods-KoraTalk-KoraTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBA13EC426161062001E19B4 /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		FBA13EC526161062001E19B4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FBA13EC626161062001E19B4 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		FBA13ECC2616137A001E19B4 /* RegisterRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRoute.swift; sourceTree = "<group>"; };
+		FBA13ED426161C2B001E19B4 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		FBA13ED526161C2B001E19B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FBA13ED626161C2B001E19B4 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AFC72962551FA1800B30789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFC73A42551FF5400B30789 /* UIComponents.framework in Frameworks */,
+				7AFC739E2551FF4F00B30789 /* DataProvider.framework in Frameworks */,
+				7AFC73A92551FF5800B30789 /* Utilities.framework in Frameworks */,
+				415BD6F799CB91F9D3918334 /* Pods_KoraTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFC72AC2551FA1A00B30789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC8BCC025DF0775421C4D68 /* Pods_KoraTalkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFC72B72551FA1A00B30789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022BC31003B0912E1F7B5043 /* Pods_KoraTalk_KoraTalkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D99B2962656ADCE0002E23E /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				7A980AFB2553178000494520 /* AppMainRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		3DD25A4E2742486A0070567E /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				3D9BC03827BE4BE300DFEFDE /* APIDataProvider.swift */,
+				3D9BC03727BE4BE300DFEFDE /* APIRequestAdapter.swift */,
+				3DD25A4F274248770070567E /* APIRequestInterceptor.swift */,
+				3DD25A5327424AC50070567E /* APILogger.swift */,
+				3DD25A5527424AF60070567E /* DataProvider.swift */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		5FFC321D261A12EF004D4F15 /* LoginWarning */ = {
+			isa = PBXGroup;
+			children = (
+				5FFC3221261A1327004D4F15 /* LoginWarningPopupViewController.swift */,
+				5FFC3220261A1327004D4F15 /* LoginWarningPopupViewModel.swift */,
+				5FFC321E261A1327004D4F15 /* LoginWarningPopupRoute.swift */,
+				5FFC321F261A1327004D4F15 /* LoginWarningPopupRouter.swift */,
+			);
+			path = LoginWarning;
+			sourceTree = "<group>";
+		};
+		6CFE5372262ED7BB0008FFCD /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE5374262ED7DC0008FFCD /* FavoritesViewController.swift */,
+				6CFE5375262ED7DC0008FFCD /* FavoritesViewModel.swift */,
+				6CFE5373262ED7DC0008FFCD /* FavoritesRouter.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		7A73C91225CC385900322233 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC72A52551FA1A00B30789 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7A73C91425CC386D00322233 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1EE850DF2CE45D5A00E88DB8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7A73C91725CC387D00322233 /* BridgingHeader */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC73472551FEBF00B30789 /* KoraTalk-Bridging-Header.h */,
+			);
+			path = BridgingHeader;
+			sourceTree = "<group>";
+		};
+		7A980AB02553166D00494520 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				7A980ABB2553168D00494520 /* Base */,
+				A29A02D22660F5570078F2FA /* Main */,
+				A2176A22261615EC008B3C46 /* WalkThrough */,
+				FBA13EC326161052001E19B4 /* Auth */,
+				B321F651263188A50082484C /* Recipes */,
+				7A980ABC2553169100494520 /* Home */,
+				6CFE5372262ED7BB0008FFCD /* Favorites */,
+				7AFCDEA32616159600D5D115 /* RecipeDetail */,
+				A2D7BB4E266511F200E3F3A2 /* Comment */,
+				5FFC321D261A12EF004D4F15 /* LoginWarning */,
+				7A73C91425CC386D00322233 /* Storyboards */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		7A980ABB2553168D00494520 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7A980AE2255316BF00494520 /* MainNavigationController.swift */,
+				7A980AE1255316BF00494520 /* BaseViewController.swift */,
+				7A980AE3255316BF00494520 /* BaseViewModel.swift */,
+				7A716CDB260B4B83008B91B7 /* TransparentNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7A980ABC2553169100494520 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7A980AB42553168400494520 /* HomeViewController.swift */,
+				7A980AB52553168400494520 /* HomeViewModel.swift */,
+				7A980AB32553168400494520 /* HomeRouter.swift */,
+				7A980B3225531F9600494520 /* HomeRoute.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A980AE92553170600494520 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				3D99B2962656ADCE0002E23E /* Routers */,
+				840EB5A8264589790019C101 /* Routes */,
+				7A980B1A255318EA00494520 /* Core */,
+				7A980AF42553172700494520 /* Transitions */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		7A980AF42553172700494520 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				7A980AEA2553171A00494520 /* ModalTransition.swift */,
+				7A980AEB2553171A00494520 /* PlaceOnWindowTransition.swift */,
+				7A980AEC2553171A00494520 /* PushTransition.swift */,
+				7A980AED2553171A00494520 /* Transition.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		7A980B1A255318EA00494520 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7A980AF52553173F00494520 /* Router.swift */,
+				7A980AF62553173F00494520 /* Animator.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7AC7AC2C25CD48D700EA44C4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				84AB45DA2629791B007A41A7 /* ScreenSize.swift */,
+				7AC7AC2F25CD49F700EA44C4 /* DateFormats.swift */,
+				A2F53D6E2668E7B7007E89BA /* NotificationNames.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		7AFC72902551FA1800B30789 = {
+			isa = PBXGroup;
+			children = (
+				7A6AED8A25A756F900BB1457 /* .swiftlint.yml */,
+				7AFC729B2551FA1800B30789 /* KoraTalk */,
+				7AFC72B22551FA1A00B30789 /* KoraTalkTests */,
+				7AFC72BD2551FA1A00B30789 /* KoraTalkUITests */,
+				7AFC729A2551FA1800B30789 /* Products */,
+				DBF57CA68880BD6211571426 /* Frameworks */,
+				EC01F9043D2986DD4FF456A9 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7AFC729A2551FA1800B30789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC72992551FA1800B30789 /* KoraTalk.app */,
+				7AFC72AF2551FA1A00B30789 /* KoraTalkTests.xctest */,
+				7AFC72BA2551FA1A00B30789 /* KoraTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AFC729B2551FA1800B30789 /* KoraTalk */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC72DC2551FBFC00B30789 /* AppDelegate */,
+				3DD25A4E2742486A0070567E /* DataProvider */,
+				A2D7BB422664F3E300E3F3A2 /* Validation */,
+				840EB5A52645895B0019C101 /* Helper */,
+				840EB5A22645894A0019C101 /* Delegates */,
+				7A73C91225CC385900322233 /* Resources */,
+				7AC7AC2C25CD48D700EA44C4 /* Constants */,
+				A22C0B8226677A0C003A6EFA /* UIComponents */,
+				7AFC72DB2551FBF800B30789 /* Configurations */,
+				7A980AE92553170600494520 /* Routing */,
+				7A980AB02553166D00494520 /* Scenes */,
+			);
+			path = KoraTalk;
+			sourceTree = "<group>";
+		};
+		7AFC72B22551FA1A00B30789 /* KoraTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC72B32551FA1A00B30789 /* KoraTalkTests.swift */,
+				7AFC72B52551FA1A00B30789 /* Info.plist */,
+			);
+			path = KoraTalkTests;
+			sourceTree = "<group>";
+		};
+		7AFC72BD2551FA1A00B30789 /* KoraTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC72BE2551FA1A00B30789 /* KoraTalkUITests.swift */,
+				7AFC72C02551FA1A00B30789 /* Info.plist */,
+			);
+			path = KoraTalkUITests;
+			sourceTree = "<group>";
+		};
+		7AFC72DB2551FBF800B30789 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				7A73C91725CC387D00322233 /* BridgingHeader */,
+				7AFC72DF2551FC1400B30789 /* Development */,
+				7AFC72DE2551FC1000B30789 /* Debug */,
+				7AFC72DD2551FC0B00B30789 /* Release */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		7AFC72DC2551FBFC00B30789 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7A73C7FB25CC178000322233 /* AppDelegate.swift */,
+				84BBEF252632CD6D00F33F04 /* AppDelegate+PhotoBrowser.swift */,
+				A22C0B872667970D003A6EFA /* AppDelegate+IQKeyboardManager.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7AFC72DD2551FC0B00B30789 /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC72AA2551FA1A00B30789 /* Info.plist */,
+			);
+			path = Release;
+			sourceTree = "<group>";
+		};
+		7AFC72DE2551FC1000B30789 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC72E02551FC3300B30789 /* Info-Debug.plist */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		7AFC72DF2551FC1400B30789 /* Development */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC72E52551FC3900B30789 /* Info-Development.plist */,
+			);
+			path = Development;
+			sourceTree = "<group>";
+		};
+		7AFCDEA32616159600D5D115 /* RecipeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A24F29DB26664B6800B7211B /* SubViews */,
+				7AFCDEA5261615A600D5D115 /* RecipeDetailViewController.swift */,
+				7AFCDEA6261615A600D5D115 /* RecipeDetailViewModel.swift */,
+				7AFCDEA4261615A600D5D115 /* RecipeDetailRouter.swift */,
+				3D5DC509261F52DA002294B7 /* RecipeDetailRoute.swift */,
+			);
+			path = RecipeDetail;
+			sourceTree = "<group>";
+		};
+		840EB5A22645894A0019C101 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				840EB5A32645894A0019C101 /* PhotoBrowserDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		840EB5A52645895B0019C101 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				840EB5B326458B490019C101 /* PhotoBrowserCache.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		840EB5A8264589790019C101 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				840EB5A9264589790019C101 /* PhotoBrowserRoute.swift */,
+				A2D7BB622665184500E3F3A2 /* CommentEditDeleteAlertViewRoute.swift */,
+				A24F29DC26667C4100B7211B /* UnfollowAlertViewRoute.swift */,
+				A2463330266A1F4A00F85CB4 /* ShareSheetRoute.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		A2176A22261615EC008B3C46 /* WalkThrough */ = {
+			isa = PBXGroup;
+			children = (
+				A2176A2426161623008B3C46 /* WalkThroughViewController.swift */,
+				A2176A2526161623008B3C46 /* WalkThroughViewModel.swift */,
+				A2176A2326161623008B3C46 /* WalkThroughRouter.swift */,
+				A2176A2F26161686008B3C46 /* WalkThroughRoute.swift */,
+			);
+			path = WalkThrough;
+			sourceTree = "<group>";
+		};
+		A22C0B8226677A0C003A6EFA /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				A22C0B8326677A51003A6EFA /* RecipeCellModel+Extension.swift */,
+				A22C0B852667816A003A6EFA /* CategoryCellModel+Extension.swift */,
+				3DABD56227429CA30035DCA4 /* CommentCellModel+Extensions.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		A24F29DB26664B6800B7211B /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				A24F29D926664B5200B7211B /* RecipeDetailHeaderView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		A29A02D22660F5570078F2FA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A29A02D32660F5810078F2FA /* MainTabBarController.swift */,
+				A29A02D52660F5E80078F2FA /* MainTabBarRoute.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A2D7BB422664F3E300E3F3A2 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				A2D7BB432664F3F000E3F3A2 /* Validation.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		A2D7BB452664FC1600E3F3A2 /* PasswordReset */ = {
+			isa = PBXGroup;
+			children = (
+				A2D7BB472664FC3C00E3F3A2 /* PasswordResetViewController.swift */,
+				A2D7BB482664FC3C00E3F3A2 /* PasswordResetViewModel.swift */,
+				A2D7BB462664FC3C00E3F3A2 /* PasswordResetRouter.swift */,
+				A2D7BB4C2664FC4900E3F3A2 /* PasswordResetRoute.swift */,
+			);
+			path = PasswordReset;
+			sourceTree = "<group>";
+		};
+		A2D7BB4E266511F200E3F3A2 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				A2D7BB502665121C00E3F3A2 /* CommentList */,
+				A2D7BB4F2665121200E3F3A2 /* CommentEdit */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		A2D7BB4F2665121200E3F3A2 /* CommentEdit */ = {
+			isa = PBXGroup;
+			children = (
+				A2D7BB65266524E200E3F3A2 /* CommentEditViewController.swift */,
+				A2D7BB66266524E200E3F3A2 /* CommentEditViewModel.swift */,
+				A2D7BB64266524E200E3F3A2 /* CommentEditRouter.swift */,
+				A2D7BB6A266524F600E3F3A2 /* CommentEditRoute.swift */,
+			);
+			path = CommentEdit;
+			sourceTree = "<group>";
+		};
+		A2D7BB502665121C00E3F3A2 /* CommentList */ = {
+			isa = PBXGroup;
+			children = (
+				A2D7BB5A266513C900E3F3A2 /* CommentListViewController.swift */,
+				A2D7BB5B266513C900E3F3A2 /* CommentListViewModel.swift */,
+				A2D7BB59266513C900E3F3A2 /* CommentListRouter.swift */,
+				A2D7BB572665126600E3F3A2 /* CommentListRoute.swift */,
+			);
+			path = CommentList;
+			sourceTree = "<group>";
+		};
+		B321F651263188A50082484C /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				B321F655263188A50082484C /* RecipesViewController.swift */,
+				B321F653263188A50082484C /* RecipesViewModel.swift */,
+				B321F6742631C8650082484C /* RecipesRouter.swift */,
+				B321F654263188A50082484C /* RecipesRoute.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		DBF57CA68880BD6211571426 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC73A82551FF5800B30789 /* Utilities.framework */,
+				7AFC73A32551FF5400B30789 /* UIComponents.framework */,
+				7AFC739D2551FF4F00B30789 /* DataProvider.framework */,
+				AC6645D9556589006530DDAC /* Pods_KoraTalk.framework */,
+				E36066D0DF95B2C2E076A7FA /* Pods_KoraTalk_KoraTalkUITests.framework */,
+				1111061D88FB4001DF5577DC /* Pods_KoraTalkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC01F9043D2986DD4FF456A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F5FC3A881DC25A4B1F15B72 /* Pods-SampleProject.debug.xcconfig */,
+				E9ADB6AC46C1F67400803DC0 /* Pods-SampleProject.release.xcconfig */,
+				40A466BB3A17D5532723A6F4 /* Pods-SampleProject.development.xcconfig */,
+				CCC4B968AC828DD26535DE94 /* Pods-SampleProject-SampleProjectUITests.debug.xcconfig */,
+				1CCE83E92ED6509A80BE4CF4 /* Pods-SampleProject-SampleProjectUITests.release.xcconfig */,
+				75513809852240C0CE1DCDA4 /* Pods-SampleProject-SampleProjectUITests.development.xcconfig */,
+				306B22CF9C53DC0C1D1044A2 /* Pods-SampleProjectTests.debug.xcconfig */,
+				A68B61997538C78E8FEE9617 /* Pods-SampleProjectTests.release.xcconfig */,
+				5A2BD542FB24694B7CD6971D /* Pods-SampleProjectTests.development.xcconfig */,
+				0095EF343F070E39CA10203B /* Pods-KoraTalk.debug.xcconfig */,
+				C301F2C90F8C9220C0249198 /* Pods-KoraTalk.release.xcconfig */,
+				D27E1F7DAA0A6CD0BF6553C6 /* Pods-KoraTalk.development.xcconfig */,
+				99DD35235DD191553F04C040 /* Pods-KoraTalk-KoraTalkUITests.debug.xcconfig */,
+				EA6A3CC6E0DDE3BF9F64C0C6 /* Pods-KoraTalk-KoraTalkUITests.release.xcconfig */,
+				854B1E2480CD13E455CCB719 /* Pods-KoraTalk-KoraTalkUITests.development.xcconfig */,
+				1F06AAE070F4EE05AD73BCC5 /* Pods-KoraTalkTests.debug.xcconfig */,
+				51B08F91B77975329EEDFA76 /* Pods-KoraTalkTests.release.xcconfig */,
+				6004522434B01FD4AA8511FA /* Pods-KoraTalkTests.development.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FBA13EC326161052001E19B4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				FBA13ED326161C1E001E19B4 /* Login */,
+				FBA13ED026161C19001E19B4 /* Register */,
+				A2D7BB452664FC1600E3F3A2 /* PasswordReset */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		FBA13ED026161C19001E19B4 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				FBA13EC526161062001E19B4 /* RegisterViewController.swift */,
+				FBA13EC626161062001E19B4 /* RegisterViewModel.swift */,
+				FBA13EC426161062001E19B4 /* RegisterRouter.swift */,
+				FBA13ECC2616137A001E19B4 /* RegisterRoute.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		FBA13ED326161C1E001E19B4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FBA13ED526161C2B001E19B4 /* LoginViewController.swift */,
+				FBA13ED626161C2B001E19B4 /* LoginViewModel.swift */,
+				FBA13ED426161C2B001E19B4 /* LoginRouter.swift */,
+				68638C1A26288E820079B785 /* LoginRoute.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AFC72982551FA1800B30789 /* KoraTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AFC72C32551FA1A00B30789 /* Build configuration list for PBXNativeTarget "KoraTalk" */;
+			buildPhases = (
+				5C1E2F21BA12D0F9EE72FF47 /* [CP] Check Pods Manifest.lock */,
+				7AFC72952551FA1800B30789 /* Sources */,
+				7AFC72962551FA1800B30789 /* Frameworks */,
+				7AFC72972551FA1800B30789 /* Resources */,
+				7A6AED7025A755AD00BB1457 /* SwiftLint */,
+				FC4520B3C306F104CC3F94F9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KoraTalk;
+			productName = BaseProject;
+			productReference = 7AFC72992551FA1800B30789 /* KoraTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AFC72AE2551FA1A00B30789 /* KoraTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AFC72C62551FA1A00B30789 /* Build configuration list for PBXNativeTarget "KoraTalkTests" */;
+			buildPhases = (
+				2063426FCB36258725D8276C /* [CP] Check Pods Manifest.lock */,
+				7AFC72AB2551FA1A00B30789 /* Sources */,
+				7AFC72AC2551FA1A00B30789 /* Frameworks */,
+				7AFC72AD2551FA1A00B30789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AFC72B12551FA1A00B30789 /* PBXTargetDependency */,
+			);
+			name = KoraTalkTests;
+			productName = BaseProjectTests;
+			productReference = 7AFC72AF2551FA1A00B30789 /* KoraTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AFC72B92551FA1A00B30789 /* KoraTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AFC72C92551FA1A00B30789 /* Build configuration list for PBXNativeTarget "KoraTalkUITests" */;
+			buildPhases = (
+				05D705FEA5AA0BBB46194808 /* [CP] Check Pods Manifest.lock */,
+				7AFC72B62551FA1A00B30789 /* Sources */,
+				7AFC72B72551FA1A00B30789 /* Frameworks */,
+				7AFC72B82551FA1A00B30789 /* Resources */,
+				50B90769EF34456AFD69D8E2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AFC72BC2551FA1A00B30789 /* PBXTargetDependency */,
+			);
+			name = KoraTalkUITests;
+			productName = BaseProjectUITests;
+			productReference = 7AFC72BA2551FA1A00B30789 /* KoraTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AFC72912551FA1800B30789 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = Apricus;
+				TargetAttributes = {
+					7AFC72982551FA1800B30789 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					7AFC72AE2551FA1A00B30789 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 7AFC72982551FA1800B30789;
+					};
+					7AFC72B92551FA1A00B30789 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 7AFC72982551FA1800B30789;
+					};
+				};
+			};
+			buildConfigurationList = 7AFC72942551FA1800B30789 /* Build configuration list for PBXProject "KoraTalk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AFC72902551FA1800B30789;
+			productRefGroup = 7AFC729A2551FA1800B30789 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AFC72982551FA1800B30789 /* KoraTalk */,
+				7AFC72AE2551FA1A00B30789 /* KoraTalkTests */,
+				7AFC72B92551FA1A00B30789 /* KoraTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AFC72972551FA1800B30789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFC72A62551FA1A00B30789 /* Assets.xcassets in Resources */,
+				1EE850E12CE45D5A00E88DB8 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFC72AD2551FA1A00B30789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFC72B82551FA1A00B30789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05D705FEA5AA0BBB46194808 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoraTalk-KoraTalkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2063426FCB36258725D8276C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoraTalkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50B90769EF34456AFD69D8E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoraTalk-KoraTalkUITests/Pods-KoraTalk-KoraTalkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoraTalk-KoraTalkUITests/Pods-KoraTalk-KoraTalkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KoraTalk-KoraTalkUITests/Pods-KoraTalk-KoraTalkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C1E2F21BA12D0F9EE72FF47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoraTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A6AED7025A755AD00BB1457 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		FC4520B3C306F104CC3F94F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoraTalk/Pods-KoraTalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoraTalk/Pods-KoraTalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KoraTalk/Pods-KoraTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AFC72952551FA1800B30789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29A02D62660F5E80078F2FA /* MainTabBarRoute.swift in Sources */,
+				B321F657263188A50082484C /* RecipesViewModel.swift in Sources */,
+				7A980AEE2553171A00494520 /* ModalTransition.swift in Sources */,
+				A22C0B882667970D003A6EFA /* AppDelegate+IQKeyboardManager.swift in Sources */,
+				A2D7BB582665126600E3F3A2 /* CommentListRoute.swift in Sources */,
+				A29A02D42660F5810078F2FA /* MainTabBarController.swift in Sources */,
+				7A980AB72553168400494520 /* HomeViewController.swift in Sources */,
+				840EB5AA264589790019C101 /* PhotoBrowserRoute.swift in Sources */,
+				A2D7BB442664F3F000E3F3A2 /* Validation.swift in Sources */,
+				7A980AF02553171A00494520 /* PushTransition.swift in Sources */,
+				6CFE5376262ED7DC0008FFCD /* FavoritesRouter.swift in Sources */,
+				A2D7BB492664FC3C00E3F3A2 /* PasswordResetRouter.swift in Sources */,
+				84AB45DB2629791B007A41A7 /* ScreenSize.swift in Sources */,
+				84BBEF262632CD6D00F33F04 /* AppDelegate+PhotoBrowser.swift in Sources */,
+				A22C0B8426677A51003A6EFA /* RecipeCellModel+Extension.swift in Sources */,
+				A2D7BB5C266513C900E3F3A2 /* CommentListRouter.swift in Sources */,
+				7A980AE5255316BF00494520 /* MainNavigationController.swift in Sources */,
+				A22C0B862667816A003A6EFA /* CategoryCellModel+Extension.swift in Sources */,
+				A24F29DD26667C4100B7211B /* UnfollowAlertViewRoute.swift in Sources */,
+				A2F53D6F2668E7B7007E89BA /* NotificationNames.swift in Sources */,
+				A2176A3026161686008B3C46 /* WalkThroughRoute.swift in Sources */,
+				7A980AB82553168400494520 /* HomeViewModel.swift in Sources */,
+				A2D7BB67266524E200E3F3A2 /* CommentEditRouter.swift in Sources */,
+				A2176A2726161623008B3C46 /* WalkThroughViewController.swift in Sources */,
+				3D9BC03927BE4BE300DFEFDE /* APIRequestAdapter.swift in Sources */,
+				7A980AB62553168400494520 /* HomeRouter.swift in Sources */,
+				7AC7AC3025CD49F700EA44C4 /* DateFormats.swift in Sources */,
+				5FFC3222261A1327004D4F15 /* LoginWarningPopupRoute.swift in Sources */,
+				A2463331266A1F4A00F85CB4 /* ShareSheetRoute.swift in Sources */,
+				A2176A2826161623008B3C46 /* WalkThroughViewModel.swift in Sources */,
+				7A980AF12553171A00494520 /* Transition.swift in Sources */,
+				7AFCDEA9261615A600D5D115 /* RecipeDetailViewModel.swift in Sources */,
+				7A980AFC2553178000494520 /* AppMainRouter.swift in Sources */,
+				B321F658263188A50082484C /* RecipesRoute.swift in Sources */,
+				A24F29DA26664B5200B7211B /* RecipeDetailHeaderView.swift in Sources */,
+				A2D7BB6B266524F600E3F3A2 /* CommentEditRoute.swift in Sources */,
+				B321F6752631C8650082484C /* RecipesRouter.swift in Sources */,
+				A2D7BB5E266513C900E3F3A2 /* CommentListViewModel.swift in Sources */,
+				5FFC3224261A1328004D4F15 /* LoginWarningPopupViewModel.swift in Sources */,
+				A2D7BB4B2664FC3C00E3F3A2 /* PasswordResetViewModel.swift in Sources */,
+				FBA13ED726161C2B001E19B4 /* LoginRouter.swift in Sources */,
+				7A73C7FC25CC178000322233 /* AppDelegate.swift in Sources */,
+				7A980AE6255316BF00494520 /* BaseViewModel.swift in Sources */,
+				3DD25A5627424AF60070567E /* DataProvider.swift in Sources */,
+				7AFCDEA7261615A600D5D115 /* RecipeDetailRouter.swift in Sources */,
+				840EB5B426458B490019C101 /* PhotoBrowserCache.swift in Sources */,
+				3DD25A50274248770070567E /* APIRequestInterceptor.swift in Sources */,
+				FBA13ED826161C2B001E19B4 /* LoginViewController.swift in Sources */,
+				FBA13ED926161C2B001E19B4 /* LoginViewModel.swift in Sources */,
+				FBA13EC826161062001E19B4 /* RegisterViewController.swift in Sources */,
+				68638C1B26288E820079B785 /* LoginRoute.swift in Sources */,
+				A2D7BB4D2664FC4900E3F3A2 /* PasswordResetRoute.swift in Sources */,
+				7A980AEF2553171A00494520 /* PlaceOnWindowTransition.swift in Sources */,
+				A2D7BB632665184500E3F3A2 /* CommentEditDeleteAlertViewRoute.swift in Sources */,
+				3DABD56327429CA30035DCA4 /* CommentCellModel+Extensions.swift in Sources */,
+				7A980AE4255316BF00494520 /* BaseViewController.swift in Sources */,
+				7A980AF82553173F00494520 /* Animator.swift in Sources */,
+				A2D7BB69266524E200E3F3A2 /* CommentEditViewModel.swift in Sources */,
+				6CFE5378262ED7DC0008FFCD /* FavoritesViewModel.swift in Sources */,
+				7A980AF72553173F00494520 /* Router.swift in Sources */,
+				5FFC3223261A1328004D4F15 /* LoginWarningPopupRouter.swift in Sources */,
+				A2D7BB4A2664FC3C00E3F3A2 /* PasswordResetViewController.swift in Sources */,
+				FBA13EC926161062001E19B4 /* RegisterViewModel.swift in Sources */,
+				FBA13EC726161062001E19B4 /* RegisterRouter.swift in Sources */,
+				7A980B3325531F9600494520 /* HomeRoute.swift in Sources */,
+				3D9BC03A27BE4BE300DFEFDE /* APIDataProvider.swift in Sources */,
+				A2D7BB5D266513C900E3F3A2 /* CommentListViewController.swift in Sources */,
+				3D5DC50A261F52DA002294B7 /* RecipeDetailRoute.swift in Sources */,
+				A2176A2626161623008B3C46 /* WalkThroughRouter.swift in Sources */,
+				840EB5B226458B220019C101 /* PhotoBrowserDelegate.swift in Sources */,
+				7AFCDEA8261615A600D5D115 /* RecipeDetailViewController.swift in Sources */,
+				6CFE5377262ED7DC0008FFCD /* FavoritesViewController.swift in Sources */,
+				A2D7BB68266524E200E3F3A2 /* CommentEditViewController.swift in Sources */,
+				B321F659263188A50082484C /* RecipesViewController.swift in Sources */,
+				3DD25A5427424AC50070567E /* APILogger.swift in Sources */,
+				5FFC3225261A1328004D4F15 /* LoginWarningPopupViewController.swift in Sources */,
+				FBA13ECD2616137A001E19B4 /* RegisterRoute.swift in Sources */,
+				7A716CDC260B4B83008B91B7 /* TransparentNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFC72AB2551FA1A00B30789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFC72B42551FA1A00B30789 /* KoraTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFC72B62551FA1A00B30789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFC72BF2551FA1A00B30789 /* KoraTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AFC72B12551FA1A00B30789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AFC72982551FA1800B30789 /* KoraTalk */;
+			targetProxy = 7AFC72B02551FA1A00B30789 /* PBXContainerItemProxy */;
+		};
+		7AFC72BC2551FA1A00B30789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AFC72982551FA1800B30789 /* KoraTalk */;
+			targetProxy = 7AFC72BB2551FA1A00B30789 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EE850DF2CE45D5A00E88DB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EE850E02CE45D5A00E88DB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AFC72C12551FA1A00B30789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AFC72C22551FA1A00B30789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AFC72C42551FA1A00B30789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0095EF343F070E39CA10203B /* Pods-KoraTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBlack;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIconBlack;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ37KAJSF7;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = "KoraTalk/Configurations/Debug/Info-Debug.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apricus.koratalk.debug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KoraTalk/Configurations/BridgingHeader/KoraTalk-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AFC72C52551FA1A00B30789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C301F2C90F8C9220C0249198 /* Pods-KoraTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ37KAJSF7;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = KoraTalk/Configurations/Release/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apricus.koratalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KoraTalk/Configurations/BridgingHeader/KoraTalk-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AFC72C72551FA1A00B30789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F06AAE070F4EE05AD73BCC5 /* Pods-KoraTalkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ37KAJSF7;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = KoraTalkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apricus.KoraTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KoraTalk.app/KoraTalk";
+			};
+			name = Debug;
+		};
+		7AFC72C82551FA1A00B30789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B08F91B77975329EEDFA76 /* Pods-KoraTalkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ37KAJSF7;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = KoraTalkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apricus.KoraTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KoraTalk.app/KoraTalk";
+			};
+			name = Release;
+		};
+		7AFC72CA2551FA1A00B30789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99DD35235DD191553F04C040 /* Pods-KoraTalk-KoraTalkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ37KAJSF7;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = KoraTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apricus.KoraTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KoraTalk;
+			};
+			name = Debug;
+		};
+		7AFC72CB2551FA1A00B30789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6A3CC6E0DDE3BF9F64C0C6 /* Pods-KoraTalk-KoraTalkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ37KAJSF7;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = KoraTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apricus.KoraTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KoraTalk;
+			};
+			name = Release;
+		};
+		7AFC72F02551FC8B00B30789 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Development;
+		};
+		7AFC72F12551FC8B00B30789 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27E1F7DAA0A6CD0BF6553C6 /* Pods-KoraTalk.development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconWhite;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIconWhite;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ37KAJSF7;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = "KoraTalk/Configurations/Development/Info-Development.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apricus.koratalk.development;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KoraTalk/Configurations/BridgingHeader/KoraTalk-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Development;
+		};
+		7AFC72F22551FC8B00B30789 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6004522434B01FD4AA8511FA /* Pods-KoraTalkTests.development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ37KAJSF7;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = KoraTalkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apricus.KoraTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KoraTalk.app/KoraTalk";
+			};
+			name = Development;
+		};
+		7AFC72F32551FC8B00B30789 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854B1E2480CD13E455CCB719 /* Pods-KoraTalk-KoraTalkUITests.development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ37KAJSF7;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = KoraTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apricus.KoraTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KoraTalk;
+			};
+			name = Development;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AFC72942551FA1800B30789 /* Build configuration list for PBXProject "KoraTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFC72C12551FA1A00B30789 /* Debug */,
+				7AFC72C22551FA1A00B30789 /* Release */,
+				7AFC72F02551FC8B00B30789 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AFC72C32551FA1A00B30789 /* Build configuration list for PBXNativeTarget "KoraTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFC72C42551FA1A00B30789 /* Debug */,
+				7AFC72C52551FA1A00B30789 /* Release */,
+				7AFC72F12551FC8B00B30789 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AFC72C62551FA1A00B30789 /* Build configuration list for PBXNativeTarget "KoraTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFC72C72551FA1A00B30789 /* Debug */,
+				7AFC72C82551FA1A00B30789 /* Release */,
+				7AFC72F22551FC8B00B30789 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AFC72C92551FA1A00B30789 /* Build configuration list for PBXNativeTarget "KoraTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFC72CA2551FA1A00B30789 /* Debug */,
+				7AFC72CB2551FA1A00B30789 /* Release */,
+				7AFC72F32551FC8B00B30789 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AFC72912551FA1800B30789 /* Project object */;
+}

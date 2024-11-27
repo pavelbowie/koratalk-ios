@@ -1,0 +1,12 @@
+/* 
+ Components.strings
+ KoraTalk
+ 
+ Created by Pavel Mac on 5/11/2024.
+ Copyright © 2024 Apricus-LLP. All rights reserved.
+ */
+
+// MARK: - Action
+"Action.block" = "Block";
+"Action.loginWarning" = "Warning";
+"Comment.placeholder" = "Placeholder";

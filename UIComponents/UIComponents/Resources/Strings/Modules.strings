@@ -1,0 +1,52 @@
+/*
+ Modules.strings
+ KoraTalk
+ 
+ Created by Pavel Mac on 10/11/2024.
+ Copyright © 2024 Apricus-LLP. All rights reserved.
+ */
+
+// MARK: - SignInPassword
+"SignIn.navigationTitle" = "Sign In";
+//
+//// MARK: - Favorites
+"Favorites.seeAllButtonTitle" = "SEE ALL";
+
+// MARK: - Home
+"Home.editorChoiceRecipes" = "FLOWS";
+"Home.lastAddedRecipes" = "NEWS";
+"Home.recipeCommentAndLikeCountText" = "%@ Comment %@ Like";
+"Home.userRecipeAndFollowerCount" = "%@ Recipe %@ Follower";
+
+// MARK: - WalkThrough
+"WalkThrough.Next" = "Next";
+"WalkThrough.Start" = "Start";
+"WalkThrough.firstTitle" = "Welcome to KoraTalk Community!";
+"WalkThrough.secondTitle" = "Finding events were not that easy";
+"WalkThrough.thirdTitle" = "Add new events";
+"WalkThrough.fourthTitle" = "Share events with others";
+"WalkThrough.descriptionText" = "KoraTalk is the best place to find your favorite friends, events & communites around the world.";
+
+
+// MARK: - Login
+"LoginViewController.title" = "Login";
+"LoginViewController.bottomText" = "Bottom Text";
+"LoginViewController.forgotPassword" = "Forgot Password?";
+
+// MARK: - Register
+"RegisterViewController.title" = "Register";
+"RegisterViewController.bottomText" = "Bottom Text";
+
+// MARK: - CommentEdit
+"CommentEditController.title" = "Comment";
+"CommentEditController.save" = "Save";
+
+// MARK: - CommentList
+"CommentListController.title" = "Comments";
+
+// MARK: - PasswordReset
+"PasswordResetController.title" = "Password Reset";
+"PasswordResetController.reset" = "Reset";
+
+// MARK: RecipeDetail
+"RecipeDetail.noComment" = "No comment.";

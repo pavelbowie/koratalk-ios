@@ -1,0 +1,22 @@
+/*
+ General.strings
+ KoraTalk
+ 
+ Created by Pavel Mac on 10/11/2024.
+ Copyright © 2024 Apricus-LLP. All rights reserved.
+ */
+
+"login" = "login";
+"register" = "register";
+"comment" = "comment";
+"like" = "like";
+"follow" = "follow";
+"following" = "following";
+"recipeIngredients" = "recipeIngredients";
+"recipeSteps" = "recipeIngredients";
+"addComment" = "comments";
+"comments" = "comments";
+"giveUp" = "giveUp";
+"login" = "login";
+"recipe" = "recipe";
+"follower" = "follower";
